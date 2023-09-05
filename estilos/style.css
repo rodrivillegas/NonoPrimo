@@ -398,7 +398,7 @@ select.opciones {
 /* Estilo para los botones de selección */
 #seleccionador_tragos button {
   font-family: "Helvetica", sans-serif;
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #fff;
   background-color: #ff9800; /* Color principal de la fiesta */
   border: 2px solid #fff;
@@ -409,7 +409,7 @@ select.opciones {
   margin-left: auto;
   margin-right: auto;
   width: 25rem; /* Ancho del botón */
-  height: 6rem; /* Alto del botón */
+  height: 6.5rem; /* Alto del botón */
 }
 
 #seleccionador_tragos button.fiesta2 {
@@ -444,7 +444,7 @@ select.opciones {
   border-radius: 400rem; /* Mayor valor para que parezcan globos */
   font-weight: 600;
   align-items: center; /* Centra los botones horizontalmente */
-  margin-top: 11rem;
+  margin-top: 13rem;
 }
 
 #seleccionador_tragos button.tutorial {
@@ -454,7 +454,7 @@ select.opciones {
   width: 25rem; /* Ancho del botón */
   height: 5.5rem; /* Alto del botón */
   border-radius: 2rem; /* Mayor valor para que parezcan globos */
-  margin-top: 33rem;
+  margin-top: 35rem;
   display: flex;
   font-weight: 500;
 }
