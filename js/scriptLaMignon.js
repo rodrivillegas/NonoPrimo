@@ -46,18 +46,11 @@ const productosJSON = `
 {
   "LaMignon": [
     {
-      "nombre": "LA MIGNON OLD TOM PINK",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Dulce macerado con flores de hibiscus, con tónica y cáscara de naranja o pomelo (elige en los comentarios).",
-      "precio": 1800,
-      "imagen": "./assets/mignon2.png"
-    },
-    {
-      "nombre": "LA MIGNON MED. BLUE",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Dulce macerado con mix de flores, con tónica y cáscara de limón o pomelo (elige en los comentarios).",
-      "precio": 1800,
-      "imagen": "./assets/mignon3.png"
+      "nombre": "CAFE + TORTA",
+      "slogan": "DISFRUTÁ NUESTRA REPOSTERÍA 😋",
+      "descripcion": "Café con leche acompañada de Torta Mil hojas 🍰.",
+      "precio": 3200,
+      "imagen": "./assets/cafeTorta.jpg"
     },
     {
       "nombre": "LA MIGNON MEDITERRANEAN",
@@ -65,14 +58,7 @@ const productosJSON = `
       "descripcion": "Aromático y fresco, con tónica y cáscara de limón.",
       "precio": 1800,
       "imagen": "./assets/mignon4.png"
-    },
-    {
-      "nombre": "LA MIGNON LONDON DRY",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Clásico seco, con tónica y cáscara de limón.",
-      "precio": 1800,
-      "imagen": "./assets/mignon1.png"
-    }   
+    }
   ]
 }
 `;
@@ -103,7 +89,7 @@ function construirContenidoProductos() {
                 <label for="cantidad_${producto.nombre.replace(
                   /\s/g,
                   ""
-                )}" class="cantidadInfo">Cantidad de Tragos:</label>
+                )}" class="cantidadInfo">Cantidad:</label>
                 <input
                   type="number"
                   id="cantidad_${producto.nombre.replace(/\s/g, "")}"

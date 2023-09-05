@@ -46,33 +46,26 @@ const productosJSON = `
 {
   "2x1": [
     {
-      "nombre": "LA MIGNON OLD TOM PINK",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Dulce macerado con flores de hibiscus, con tónica y cáscara de naranja o pomelo (elige en los comentarios).",
-      "precio": 1800,
-      "imagen": "./assets/mignon2.png"
+      "nombre": "LOMITO + CERVEZA",
+      "slogan": "¡Aprovechá esta súper PROMO 🚨!",
+      "descripcion": "Lomo completo con papas más lata de cerveza Stella Artois de 350cc.🍺",
+      "precio": 3000,
+      "imagen": "./assets/LomoCerveza.jpg"
     },
     {
-      "nombre": "LA MIGNON MED. BLUE",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Dulce macerado con mix de flores, con tónica y cáscara de limón o pomelo (elige en los comentarios).",
-      "precio": 1800,
-      "imagen": "./assets/mignon3.png"
+      "nombre": "EMPANADA + CERVEZA",
+      "slogan": "¡Aprovechá esta súper PROMO 🚨!",
+      "descripcion": "Cuatro empanadas de tu elección más Lata de Cerveza Stella Artois 350cc.🍺 (elige en los comentarios).",
+      "precio": 3500,
+      "imagen": "./assets/EmpanadaCerveza.jpg"
     },
     {
-      "nombre": "LA MIGNON MEDITERRANEAN",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Aromático y fresco, con tónica y cáscara de limón.",
-      "precio": 1800,
-      "imagen": "./assets/mignon4.png"
-    },
-    {
-      "nombre": "LA MIGNON LONDON DRY",
-      "slogan": "VAPOUR INFUSED GIN",
-      "descripcion": "Clásico seco, con tónica y cáscara de limón.",
-      "precio": 1800,
-      "imagen": "./assets/mignon1.png"
-    }   
+      "nombre": "MILANESA NAPOLITANA",
+      "slogan": "¡Vos elegís la guarnición!",
+      "descripcion": "Papas fritas 🍟: Clásicas; Papas con cheddar, panceta y verdeo; Ensaladas 🥗: Rúcula, parmesano y tomates cherry; Mixta; Tomates y huevo (elige en los comentarios).",
+      "precio": 3000,
+      "imagen": "./assets/Milanesa.jpg"
+    }
   ]
 }
 `;
@@ -98,12 +91,12 @@ function construirContenidoProductos() {
               <div class="entrada-label formatoDescripcion">${
                 producto.descripcion
               }</div>
-              <div class="precioBox">Precio Regular: $${producto.precio}</div>
+              <div class="precioBox">Precio: $${producto.precio}</div>
               <div class="cantidad">
                 <label for="cantidad_${producto.nombre.replace(
                   /\s/g,
                   ""
-                )}" class="cantidadInfo">Cantidad de Tragos:</label>
+                )}" class="cantidadInfo">Cantidad:</label>
                 <input
                   type="number"
                   id="cantidad_${producto.nombre.replace(/\s/g, "")}"
