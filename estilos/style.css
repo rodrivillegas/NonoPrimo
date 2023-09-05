@@ -436,7 +436,7 @@ select.opciones {
   background-color: #00bf00; /* Color verde llamativo */
   color: #fff;
   font-family: "Noto Serif Makasar", serif;
-  font-size: 2rem; /* Tamaño de fuente reducido */
+  font-size: 2.5rem; /* Tamaño de fuente reducido */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
   width: 18rem; /* Ancho del botón */
   height: 18rem; /* Alto del botón */
@@ -444,7 +444,7 @@ select.opciones {
   border-radius: 400rem; /* Mayor valor para que parezcan globos */
   font-weight: 600;
   align-items: center; /* Centra los botones horizontalmente */
-  margin-top: 5rem;
+  margin-top: 11rem;
 }
 
 #seleccionador_tragos button.tutorial {
@@ -454,7 +454,7 @@ select.opciones {
   width: 25rem; /* Ancho del botón */
   height: 5.5rem; /* Alto del botón */
   border-radius: 2rem; /* Mayor valor para que parezcan globos */
-  margin-top: 8rem;
+  margin-top: 33rem;
   display: flex;
   font-weight: 500;
 }
@@ -466,7 +466,7 @@ select.opciones {
 }
 
 .resize-text {
-  font-size: 2.4rem; /* Tamaño de fuente de 2x1 */
+  font-size: 3rem; /* Tamaño de fuente de 2x1 */
 }
 
 /* Estilo para el nuevo h2 (título de promoción) */
